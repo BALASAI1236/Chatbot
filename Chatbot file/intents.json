@@ -1,0 +1,114 @@
+{"intents": [
+    {"tag" : "greeting",
+     "patterns" : ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","Nice to meet you"],
+     "responses" : ["Hello!", "Good to see you again!", "Hi there, how can I help you?"],
+     "context_set" : ""
+    },
+    {"tag" : "goodbye",
+     "patterns" : ["cya", "See you later", "Good bye", "I am leaving", " Have a good day", "Meet you later","Talk to you later"],
+     "responses" : ["Goodbye!", "Talk to you later", "Bye"],
+     "context_set" : ""
+    },
+    {"tag" : "name",
+     "patterns" : ["What is your name?", "What should i call you?", "Can i know your name", "Whats your name?"],
+     "responses" : ["Hello!, my name is Spill", "I'm Spill"],
+     "context_set" : ""
+    },
+     {"tag" : "hotels_hyd",
+     "patterns" : ["What are the famous hotels in hyderabad", "Let me know some of the hotels in Hyderabad", "Let me know the names of some hotels","Say some more hotels","Tell me some of the hotels in hyderabad","What are the famous restaurants in hyderabad","Let me know some of the restaurants in Hyderabad","Tell me some of the restaurants in hyderabad"],
+     "responses" : ["ITC Kakatiya, Begumpet", "Park Hyatt, Banjara Hills", "Vivanta, Begumpet", "ITC Kohenur, Madhapur", "Le Meridien,    Gachibowli", "Taj Falaknama Palace, Falaknuma", "Ella Hotel, Gachibowli", "Novotel Hyderabad Conventional Centre, Hitec City", "Taj Deccan, Banjara Hills"],
+     "context_set" : ""
+    },
+    {"tag" : "malls",
+     "patterns" : ["What are the famous shopping malls in Hyderabad?", "Let me know name of some shopping malls","Let me know name of some shopping malls in hyderabad","Give me list of some more shopping malls","Say some more shopping malls","Tell me some of the malls in hyderabad"],
+     "responses" : ["City Center Mall, Banjara Hills","GVK One Mall,Banjara Hills", "Inorbit Mall, Madhapur","Manjeera Mall,Kukatpally(KPHB)", "Sharat City Capital Mall, Kondapur", "Forum Sujana Mall, Kukatpally(KPHB)", "Next Galleria Mall, Punjagutta", "Patny Central Mall, Secunderabad"],
+     "context_set" : ""
+    },
+    {"tag" : "dist_charminar1",
+     "patterns" : ["What is the distance between Charminar and L.B Nagar?", "Distance between Charminar and LB Nagar","Can you let me know the distance between lb nagar and charminar"],
+     "responses" : ["The shortest distance is 13.0km and it would take approximately 23min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "dist_charminar2",
+     "patterns" : ["What is the distance between Charminar and Serilingampally?", "Distance between Charminar and Serilingampally","Can you let me know the distance between serilingampally and charminar"],
+     "responses" : ["The shortest distance is 25.4km and it would take approximately 40min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "dist_charminar3",
+     "patterns" : ["What is the distance between Charminar and Kukatpally?", "Distance between Charminar and Kukatpally","Can you let me know the distance between kukatpally and charminar"],
+     "responses" : ["The shortest distance is 19.7km and it would take approximately 31min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "dist_charminar4",
+     "patterns" : ["What is the distance between Charminar and Secunderabad?", "Distance between Charminar and Secunderabad","Can you let me know the distance between secunderabad and charminar"],
+     "responses" : ["The shortest distance is 11.1km and it would take approximately 22min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "dist_charminar5",
+     "patterns" : ["What is the distance between Charminar and Khairatabad?", "Distance between Charminar and Khairatabad","Can you let me know the distance between khairatabad and charminar"],
+     "responses" : ["The shortest distance is 6.4km and it would take approximately 14min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "lbnagar1",
+     "patterns" : ["What is the distance between L.B Nagar and Serilingampally?", "Distance between LB Nagar and Serilingampally","Can you let me know the distance between serilingampally and lb nagar" ],
+     "responses" : ["The shortest distance is 34.6km and it would take approximately 56min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "lbnagar2",
+     "patterns" : ["What is the distance between L.B Nagar and Kukatpally?", "Distance between LB Nagar and Kukatpally","Can you let me know the distance between kukatpally and lb nagar"],
+     "responses" : ["The shortest distance is 28.9km and it would take approximately 42min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "lbnagar3",
+     "patterns" : ["What is the distance between L.B Nagar and Secunderabad?", "Distance between LB Nagar and Secunderabad","Can you let me know the distance between secunderabad and lb nagar"],
+     "responses" : ["The shortest distance is 15.9km and it would take approximately 25min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "lbnagar4",
+     "patterns" : ["What is the distance between L.B Nagar and Khairatabad?","Distance between LB Nagar and Khairatabad","Can you let me know the distance between khairatabad and lb nagar"],
+     "responses" : ["The shortest distance is 15.9km and it would take approximately 26min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "serilingampally1",
+     "patterns" : ["What is the distance between Serilingampally and Kukatpally?", "Distance between Serilingampally and Kukatpally","Can you let me know the distance between kukatpally and serilingampally"],
+     "responses" : ["The shortest distance is 12.6km and it would take approximately 20min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "serilingampally2",
+     "patterns" : ["What is the distance between Serilingampally and Secunderabad?", "Distance between Serilingampally and Secunderabad","Can you let me know the distance between secunderabad and serilingampally"],
+     "responses" : ["The shortest distance is 26.7km and it would take approximately 44min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "serilingampally3",
+     "patterns" : ["What is the distance between Serilingampally and Khairatabad?", "Distance between Serilingampally and Khairatabad","Can you let me know the distance between khairatabad and serilingampally"],
+     "responses" : ["The shortest distance is 24.0km and it would take approximately 34min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "kukatpally1",
+     "patterns" : ["What is the distance between Kukatpally and Secunderabad?", "Distance between Kukatpally and Secunderabad","Can you let me know the distance between secunderabad and kukatpally"],
+     "responses" : ["The shortest distance is 19.8km and it would take approximately 31min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "kukatpally2",
+     "patterns" : ["What is the distance between Kukatpally and Khairatabad?", "Distance between Kukatpally and Khairatabad","Can you let me know the distance between khairatabad and kukatpally"],
+     "responses" : ["The shortest distance is 14.1km and it would take approximately 21min to reach there."],
+     "context_set" : ""
+    },
+    {"tag" : "secunderabad1",
+     "patterns" : ["What is the distance between Secunderabad and Khairatabad?","Distance between Secunderabad and Khairatabad","Can you let me know the distance between khairatabad and secunderabad"],
+     "responses" : ["The shortest distance is 6.8km and it would take approximately 15min to reach there. "],
+     "context_set" : ""
+    },
+    {"tag" : "resorts",
+     "patterns" : ["What are the famous resorts in hyderabad", "Let me know some of the resorts in Hyderabad", "Let me know the names of some resorts","Say some more resorts","Tell me some of the resorts in hyderabad"],
+     "responses" : ["The Golkonda Resorts & Spa, Gandipet", "Heaven Gaits Resorts, Yenkepally", "Lahari Resorts, Near Patancheruvu","Ananya Eco Resorts, Vanasthalipuram", "Treasure Island Resort, Gandipet","Greenpark Hotels and Resorts, Begumpet"],
+     "context_set" : ""
+    },
+    {"tag" : "temples",
+     "patterns" : ["What are the famous temples in hyderabad", "Let me know some of the temples in Hyderabad", "Let me know the names of some temples","Say some more temples","Tell me some of the temples in hyderabad"],
+     "responses" : ["Sri Jagannath Temple, Banjara Hills", "Sri Peddamma temple, Begumpet","Shri Ashtalakshmi Temple, Kothapet","Kesari Hanuman Temple, Karwan East","Birla Mandir, Khairtabad","Iskcon, Abids","Karmanghat Hanuman Temple, Champapet"],
+     "context_set" : ""
+    }
+    
+    ]
+}
